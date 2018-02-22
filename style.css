@@ -75,7 +75,14 @@ h3 {
     padding-left:10%;
     overflow: hidden;
     background-color: #FFFFFF;
-    text-align: center;
+  }
+  h5 {
+  color: AliceBlue;
+  line-height: 1.3em;
+  text-align: centered;
+  width: 100%;
+  font-family: Georgia;
+  font-size: 18px;
   }
 p {
   color: AliceBlue;
@@ -154,11 +161,39 @@ width:500px;
 	  margin-left: auto;
 	  margin-right: auto;
   }
-  .bottom {
+  .footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 	list-style-type: none;
     margin: 0;
     padding-left:0;
     overflow: hidden;
     background-color: #FFFFFF;
     text-align: center; 
+  }
+  #media img{
+	display: block;
+	margin-left: auto;
+	margin-right: 200px;
+	margin-bottom: 50px;
+	width: auto;
+	height: 50px;
+	border-radius: 80%;
+  }
+  .book-img {
+	  display: block;
+	  margin-left: 50px;
+	  margin-right: 50px;
+	  width: auto;
+	  height: 400px;
+  }
+  .main-im {
+	width: 60%;
+	height: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
   }
